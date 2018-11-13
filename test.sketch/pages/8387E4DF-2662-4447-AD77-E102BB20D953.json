@@ -7,7 +7,13 @@
     "startMarkerType" : 0,
     "endMarkerType" : 0
   },
-  "rotation" : 0,
+  "horizontalRulerData" : {
+    "base" : 0,
+    "_class" : "rulerData",
+    "guides" : [
+
+    ]
+  },
   "frame" : {
     "x" : 0,
     "y" : 0,
@@ -17,7 +23,7 @@
     "width" : 300
   },
   "do_objectID" : "8387E4DF-2662-4447-AD77-E102BB20D953",
-  "layerListExpandedType" : 0,
+  "hasClickThrough" : true,
   "exportOptions" : {
     "shouldTrim" : false,
     "includedLayerIds" : [
@@ -29,15 +35,9 @@
 
     ]
   },
-  "hasClickThrough" : true,
-  "horizontalRulerData" : {
-    "base" : 0,
-    "_class" : "rulerData",
-    "guides" : [
-
-    ]
-  },
   "includeInCloudUpload" : true,
+  "layerListExpandedType" : 0,
+  "rotation" : 0,
   "verticalRulerData" : {
     "base" : 0,
     "_class" : "rulerData",
@@ -46,11 +46,9 @@
     ]
   },
   "isFlippedVertical" : false,
-  "nameIsFixed" : false,
+  "clippingMaskMode" : 0,
   "name" : "Page 1",
   "isVisible" : true,
-  "resizingType" : 0,
-  "clippingMaskMode" : 0,
   "hasClippingMask" : false,
   "layers" : [
     {
@@ -62,7 +60,13 @@
         "startMarkerType" : 0,
         "endMarkerType" : 0
       },
-      "rotation" : 0,
+      "horizontalRulerData" : {
+        "base" : 0,
+        "_class" : "rulerData",
+        "guides" : [
+
+        ]
+      },
       "frame" : {
         "x" : 395,
         "y" : 104,
@@ -72,7 +76,7 @@
         "width" : 375
       },
       "do_objectID" : "FF9A209A-A819-4835-ADA9-E53BAAF7CC57",
-      "layerListExpandedType" : 0,
+      "hasClickThrough" : true,
       "exportOptions" : {
         "shouldTrim" : false,
         "includedLayerIds" : [
@@ -84,15 +88,9 @@
 
         ]
       },
-      "hasClickThrough" : true,
       "hasBackgroundColor" : false,
-      "horizontalRulerData" : {
-        "base" : 0,
-        "_class" : "rulerData",
-        "guides" : [
-
-        ]
-      },
+      "includeInCloudUpload" : true,
+      "layerListExpandedType" : 0,
       "backgroundColor" : {
         "red" : 1,
         "_class" : "color",
@@ -100,8 +98,8 @@
         "blue" : 1,
         "green" : 1
       },
-      "includeInCloudUpload" : true,
       "resizesContent" : false,
+      "rotation" : 0,
       "verticalRulerData" : {
         "base" : 0,
         "_class" : "rulerData",
@@ -110,11 +108,9 @@
         ]
       },
       "isFlippedVertical" : false,
-      "nameIsFixed" : false,
+      "clippingMaskMode" : 0,
       "name" : "iPhone 8",
       "isVisible" : true,
-      "resizingType" : 0,
-      "clippingMaskMode" : 0,
       "hasClippingMask" : false,
       "layers" : [
         {
@@ -184,10 +180,13 @@
           },
           "edited" : false,
           "isFlippedVertical" : false,
-          "nameIsFixed" : false,
+          "clippingMaskMode" : 0,
           "name" : "Oval",
           "isVisible" : true,
+          "hasClippingMask" : false,
+          "nameIsFixed" : false,
           "resizingType" : 0,
+          "isClosed" : true,
           "userInfo" : {
             "com.animaapp.stc-sketch-plugin" : {
               "kModelPropertiesKey" : {
@@ -196,11 +195,11 @@
                   "model_version" : 0.10000000000000001,
                   "aspectRatio" : {
                     "multiplier" : 186,
-                    "model_version" : 0.10000000000000001,
-                    "constant" : 186,
                     "enabled" : 1,
+                    "constant" : 186,
                     "modelID" : "constraint_d5400c30-90f3-43fe-ba0e-b5f559a152bb",
-                    "model_class" : "ADModelConstraint"
+                    "model_class" : "ADModelConstraint",
+                    "model_version" : 0.10000000000000001
                   },
                   "modelID" : "viewConstraints_c6a8503f-ec6d-4b7c-ae55-ea63a9ede628",
                   "model_class" : "ADModelViewConstraints",
@@ -209,9 +208,6 @@
               }
             }
           },
-          "clippingMaskMode" : 0,
-          "hasClippingMask" : false,
-          "isClosed" : true,
           "isLocked" : false,
           "points" : [
             {
@@ -261,25 +257,176 @@
           "_class" : "oval",
           "booleanOperation" : -1,
           "resizingConstraint" : 63
+        },
+        {
+          "isFlippedHorizontal" : false,
+          "hasConvertedToNewRoundCorners" : true,
+          "rotation" : 0,
+          "frame" : {
+            "x" : 105,
+            "y" : 32,
+            "_class" : "rect",
+            "constrainProportions" : true,
+            "height" : 166,
+            "width" : 166
+          },
+          "do_objectID" : "8D393315-1361-4F8B-96DF-09241285E4BD",
+          "layerListExpandedType" : 0,
+          "exportOptions" : {
+            "shouldTrim" : false,
+            "includedLayerIds" : [
+
+            ],
+            "layerOptions" : 0,
+            "_class" : "exportOptions",
+            "exportFormats" : [
+
+            ]
+          },
+          "edited" : false,
+          "style" : {
+            "_class" : "style",
+            "borders" : [
+              {
+                "thickness" : 1,
+                "fillType" : 0,
+                "_class" : "border",
+                "isEnabled" : false,
+                "position" : 1,
+                "color" : {
+                  "red" : 0.59199999999999997,
+                  "_class" : "color",
+                  "alpha" : 1,
+                  "blue" : 0.59199999999999997,
+                  "green" : 0.59199999999999997
+                }
+              }
+            ],
+            "miterLimit" : 10,
+            "fills" : [
+              {
+                "_class" : "fill",
+                "color" : {
+                  "red" : 0.28865569829940801,
+                  "_class" : "color",
+                  "alpha" : 1,
+                  "blue" : 0.886238694190979,
+                  "green" : 0.56455188989639282
+                },
+                "patternTileScale" : 1,
+                "fillType" : 0,
+                "noiseIntensity" : 0,
+                "patternFillType" : 0,
+                "noiseIndex" : 0,
+                "isEnabled" : true
+              }
+            ],
+            "startMarkerType" : 0,
+            "windingRule" : 0,
+            "endMarkerType" : 0
+          },
+          "isFlippedVertical" : false,
+          "clippingMaskMode" : 0,
+          "name" : "Rectangle",
+          "isVisible" : true,
+          "hasClippingMask" : false,
+          "nameIsFixed" : false,
+          "resizingType" : 0,
+          "isClosed" : true,
+          "userInfo" : {
+            "com.animaapp.stc-sketch-plugin" : {
+              "kModelPropertiesKey" : {
+                "constraints" : {
+                  "scaleFactor" : 1,
+                  "model_version" : 0.10000000000000001,
+                  "aspectRatio" : {
+                    "multiplier" : 166,
+                    "enabled" : 1,
+                    "constant" : 166,
+                    "modelID" : "constraint_afbb4ff8-ec7a-4cd8-992e-d381cc3783f4",
+                    "model_class" : "ADModelConstraint",
+                    "model_version" : 0.10000000000000001
+                  },
+                  "modelID" : "viewConstraints_1c1495b4-4481-491e-9848-0b873ec8d9e7",
+                  "model_class" : "ADModelViewConstraints",
+                  "automatic" : 1
+                }
+              }
+            }
+          },
+          "isLocked" : false,
+          "points" : [
+            {
+              "_class" : "curvePoint",
+              "curveMode" : 1,
+              "hasCurveTo" : false,
+              "curveFrom" : "{0, 0}",
+              "point" : "{0, 0}",
+              "cornerRadius" : 0,
+              "curveTo" : "{0, 0}",
+              "hasCurveFrom" : false
+            },
+            {
+              "_class" : "curvePoint",
+              "curveMode" : 1,
+              "hasCurveTo" : false,
+              "curveFrom" : "{1, 0}",
+              "point" : "{1, 0}",
+              "cornerRadius" : 0,
+              "curveTo" : "{1, 0}",
+              "hasCurveFrom" : false
+            },
+            {
+              "_class" : "curvePoint",
+              "curveMode" : 1,
+              "hasCurveTo" : false,
+              "curveFrom" : "{1, 1}",
+              "point" : "{1, 1}",
+              "cornerRadius" : 0,
+              "curveTo" : "{1, 1}",
+              "hasCurveFrom" : false
+            },
+            {
+              "_class" : "curvePoint",
+              "curveMode" : 1,
+              "hasCurveTo" : false,
+              "curveFrom" : "{0, 1}",
+              "point" : "{0, 1}",
+              "cornerRadius" : 0,
+              "curveTo" : "{0, 1}",
+              "hasCurveFrom" : false
+            }
+          ],
+          "fixedRadius" : 0,
+          "pointRadiusBehaviour" : 1,
+          "isFixedToViewport" : false,
+          "shouldBreakMaskChain" : false,
+          "_class" : "rectangle",
+          "booleanOperation" : -1,
+          "resizingConstraint" : 63
         }
       ],
+      "nameIsFixed" : false,
+      "resizingType" : 0,
       "isLocked" : false,
-      "shouldBreakMaskChain" : true,
       "isFlowHome" : false,
+      "shouldBreakMaskChain" : true,
       "isFixedToViewport" : false,
       "presetDictionary" : {
-        "name" : "iPhone 8",
-        "offersLandscapeVariant" : 1,
         "width" : 375,
+        "offersLandscapeVariant" : 1,
+        "height" : 667,
         "allowResizedMatching" : 1,
-        "height" : 667
+        "name" : "iPhone 8"
       },
       "_class" : "artboard",
       "booleanOperation" : -1,
-      "resizingConstraint" : 63,
-      "includeBackgroundColorInExport" : true
+      "includeBackgroundColorInExport" : true,
+      "resizingConstraint" : 63
     }
   ],
+  "nameIsFixed" : false,
+  "resizingType" : 0,
   "isLocked" : false,
   "shouldBreakMaskChain" : false,
   "isFixedToViewport" : false,
